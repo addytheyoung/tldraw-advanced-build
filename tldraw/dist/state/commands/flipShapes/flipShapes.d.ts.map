@@ -1,0 +1,1 @@
+{"version":3,"file":"flipShapes.d.ts","sourceRoot":"","sources":["../../../../src/state/commands/flipShapes/flipShapes.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,QAAQ,CAAA;AAEjC,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,QAAQ,CAAA;AAC3C,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,gBAAgB,CAAA;AAG/C,wBAAgB,UAAU,CAAC,GAAG,EAAE,SAAS,EAAE,GAAG,EAAE,MAAM,EAAE,EAAE,IAAI,EAAE,QAAQ,GAAG,aAAa,CAgFvF"}

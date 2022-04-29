@@ -1,0 +1,1 @@
+{"version":3,"file":"styleShapes.d.ts","sourceRoot":"","sources":["../../../../src/state/commands/styleShapes/styleShapes.ts"],"names":[],"mappings":"AAAA,OAAO,EAAS,WAAW,EAAE,aAAa,EAAmC,MAAM,QAAQ,CAAA;AAG3F,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,gBAAgB,CAAA;AAE/C,wBAAgB,WAAW,CACzB,GAAG,EAAE,SAAS,EACd,GAAG,EAAE,MAAM,EAAE,EACb,OAAO,EAAE,OAAO,CAAC,WAAW,CAAC,GAC5B,aAAa,CAgFf"}

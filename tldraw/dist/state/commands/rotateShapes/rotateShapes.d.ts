@@ -1,0 +1,4 @@
+import type { TldrawCommand } from '../../../types';
+import type { TldrawApp } from '../../internal';
+export declare function rotateShapes(app: TldrawApp, ids: string[], delta?: number): TldrawCommand | void;
+//# sourceMappingURL=rotateShapes.d.ts.map

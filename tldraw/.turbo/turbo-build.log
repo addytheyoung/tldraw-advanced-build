@@ -1,0 +1,8 @@
+[34m@tldraw/tldraw:build: [0mcache hit, replaying output [2mdf3b71b632e78096[0m
+[34m@tldraw/tldraw:build: [0m$ yarn lask
+[34m@tldraw/tldraw:build: [0m$ /Users/andrewyoung/artgobblers/tldraw-advanced/node_modules/.bin/lask
+[34m@tldraw/tldraw:build: [0m✔ @tldraw/tldraw: Built esm package (1651.6kb / 102.8kb gzipped)
+[34m@tldraw/tldraw:build: [0m✔ @tldraw/tldraw: Built cjs package (1666.8kb / 103.2kb gzipped)
+[34m@tldraw/tldraw:build: [0m✔ @tldraw/tldraw: Built types
+[34m@tldraw/tldraw:build: [0m✔ @tldraw/tldraw: Resolved paths
+[34m@tldraw/tldraw:build: [0m✔ @tldraw/tldraw: Build complete

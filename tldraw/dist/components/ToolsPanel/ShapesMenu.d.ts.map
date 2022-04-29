@@ -1,0 +1,1 @@
+{"version":3,"file":"ShapesMenu.d.ts","sourceRoot":"","sources":["../../../src/components/ToolsPanel/ShapesMenu.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAA;AAI9B,OAAO,EAA2B,UAAU,EAAE,MAAM,QAAQ,CAAA;AAM5D,UAAU,eAAe;IACvB,UAAU,EAAE,UAAU,CAAA;IACtB,YAAY,EAAE,OAAO,CAAA;CACtB;AA4BD,eAAO,MAAM,UAAU,6CA0ErB,CAAA"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"duplicateShapes.d.ts","sourceRoot":"","sources":["../../../../src/state/commands/duplicateShapes/duplicateShapes.ts"],"names":[],"mappings":"AAIA,OAAO,KAAK,EAAe,aAAa,EAAW,MAAM,QAAQ,CAAA;AACjE,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,gBAAgB,CAAA;AAE/C,wBAAgB,eAAe,CAAC,GAAG,EAAE,SAAS,EAAE,GAAG,EAAE,MAAM,EAAE,EAAE,KAAK,CAAC,EAAE,MAAM,EAAE,GAAG,aAAa,CAwK9F"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"LineTool.d.ts","sourceRoot":"","sources":["../../../../src/state/tools/LineTool/LineTool.ts"],"names":[],"mappings":"AAAA,OAAO,EAAS,qBAAqB,EAAE,MAAM,cAAc,CAAA;AAG3D,OAAO,EAAe,WAAW,EAAE,MAAM,QAAQ,CAAA;AACjD,OAAO,EAAE,QAAQ,EAAU,MAAM,aAAa,CAAA;AAE9C,qBAAa,QAAS,SAAQ,QAAQ;IACpC,IAAI,mBAA4B;IAIhC,aAAa,EAAE,qBAAqB,CA+BnC;CACF"}

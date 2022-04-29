@@ -1,0 +1,1 @@
+{"version":3,"file":"distributeShapes.d.ts","sourceRoot":"","sources":["../../../../src/state/commands/distributeShapes/distributeShapes.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,cAAc,EAAW,aAAa,EAAe,MAAM,QAAQ,CAAA;AAG5E,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,gBAAgB,CAAA;AAE/C,wBAAgB,gBAAgB,CAC9B,GAAG,EAAE,SAAS,EACd,GAAG,EAAE,MAAM,EAAE,EACb,IAAI,EAAE,cAAc,GACnB,aAAa,CAwDf"}

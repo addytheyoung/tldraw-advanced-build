@@ -1,0 +1,1 @@
+{"version":3,"file":"getTextSvgElement.d.ts","sourceRoot":"","sources":["../../../../src/state/shapes/shared/getTextSvgElement.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,QAAQ,EAAE,MAAM,cAAc,CAAA;AAC5C,OAAO,EAAc,WAAW,EAAE,MAAM,QAAQ,CAAA;AAKhD,wBAAgB,iBAAiB,CAAC,IAAI,EAAE,MAAM,EAAE,KAAK,EAAE,WAAW,EAAE,MAAM,EAAE,QAAQ,eAgCnF"}

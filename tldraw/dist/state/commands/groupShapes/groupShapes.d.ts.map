@@ -1,0 +1,1 @@
+{"version":3,"file":"groupShapes.d.ts","sourceRoot":"","sources":["../../../../src/state/commands/groupShapes/groupShapes.ts"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAS,aAAa,EAAa,MAAM,QAAQ,CAAA;AAC7D,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,gBAAgB,CAAA;AAG/C,wBAAgB,WAAW,CACzB,GAAG,EAAE,SAAS,EACd,GAAG,EAAE,MAAM,EAAE,EACb,OAAO,EAAE,MAAM,EACf,MAAM,EAAE,MAAM,GACb,aAAa,GAAG,SAAS,CA0N3B"}

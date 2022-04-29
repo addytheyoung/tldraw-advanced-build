@@ -1,0 +1,1 @@
+{"version":3,"file":"useFileSystem.d.ts","sourceRoot":"","sources":["../../src/hooks/useFileSystem.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,QAAQ,CAAA;AAEvC,wBAAgB,aAAa;wBAgBb,SAAS;yBASuB,SAAS;2BAIP,SAAS;yBAK3C,SAAS;uBAO2B,SAAS;EAW5D"}

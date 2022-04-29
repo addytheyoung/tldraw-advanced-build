@@ -1,0 +1,1 @@
+{"version":3,"file":"RectangleTool.d.ts","sourceRoot":"","sources":["../../../../src/state/tools/RectangleTool/RectangleTool.ts"],"names":[],"mappings":"AAAA,OAAO,EAAS,qBAAqB,EAAkB,MAAM,cAAc,CAAA;AAG3E,OAAO,EAAe,WAAW,EAAE,MAAM,QAAQ,CAAA;AACjD,OAAO,EAAE,QAAQ,EAAU,MAAM,aAAa,CAAA;AAE9C,qBAAa,aAAc,SAAQ,QAAQ;IACzC,IAAI,wBAAiC;IAIrC,aAAa,EAAE,qBAAqB,CAgCnC;CACF"}

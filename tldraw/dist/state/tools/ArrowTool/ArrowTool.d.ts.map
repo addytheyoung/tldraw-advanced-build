@@ -1,0 +1,1 @@
+{"version":3,"file":"ArrowTool.d.ts","sourceRoot":"","sources":["../../../../src/state/tools/ArrowTool/ArrowTool.ts"],"names":[],"mappings":"AAAA,OAAO,EAAS,qBAAqB,EAAE,MAAM,cAAc,CAAA;AAG3D,OAAO,EAAe,WAAW,EAAE,MAAM,QAAQ,CAAA;AACjD,OAAO,EAAE,QAAQ,EAAU,MAAM,aAAa,CAAA;AAE9C,qBAAa,SAAU,SAAQ,QAAQ;IACrC,IAAI,oBAA6B;IAIjC,aAAa,EAAE,qBAAqB,CA2BnC;CACF"}

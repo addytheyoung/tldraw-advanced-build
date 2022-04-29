@@ -1,0 +1,1 @@
+{"version":3,"file":"EllipseTool.d.ts","sourceRoot":"","sources":["../../../../src/state/tools/EllipseTool/EllipseTool.ts"],"names":[],"mappings":"AAAA,OAAO,EAAS,qBAAqB,EAAkB,MAAM,cAAc,CAAA;AAG3E,OAAO,EAAe,WAAW,EAAE,MAAM,QAAQ,CAAA;AACjD,OAAO,EAAE,QAAQ,EAAU,MAAM,aAAa,CAAA;AAE9C,qBAAa,WAAY,SAAQ,QAAQ;IACvC,IAAI,sBAA+B;IAInC,aAAa,EAAE,qBAAqB,CAgCnC;CACF"}
