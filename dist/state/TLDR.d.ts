@@ -4,20 +4,20 @@ import type { TDShapeUtil } from './shapes/TDShapeUtil';
 export declare class TLDR {
     static getShapeUtil<T extends TDShape>(type: T['type']): TDShapeUtil<T>;
     static getShapeUtil<T extends TDShape>(shape: T): TDShapeUtil<T>;
-    static getSelectedShapes(data: TDSnapshot, pageId: string): any[];
-    static screenToWorld(data: TDSnapshot, point: number[]): any;
-    static getCameraZoom(zoom: number): any;
+    static getSelectedShapes(data: TDSnapshot, pageId: string): TDShape[];
+    static screenToWorld(data: TDSnapshot, point: number[]): number[];
+    static getCameraZoom(zoom: number): number;
     static getPage(data: TDSnapshot, pageId: string): TDPage;
     static getPageState(data: TDSnapshot, pageId: string): TLPageState;
     static getSelectedIds(data: TDSnapshot, pageId: string): string[];
     static getShapes(data: TDSnapshot, pageId: string): TDShape[];
     static getCamera(data: TDSnapshot, pageId: string): TLPageState['camera'];
     static getShape<T extends TDShape = TDShape>(data: TDSnapshot, shapeId: string, pageId: string): T;
-    static getCenter<T extends TDShape>(shape: T): any;
-    static getBounds<T extends TDShape>(shape: T): any;
-    static getRotatedBounds<T extends TDShape>(shape: T): any;
+    static getCenter<T extends TDShape>(shape: T): number[];
+    static getBounds<T extends TDShape>(shape: T): TLBounds;
+    static getRotatedBounds<T extends TDShape>(shape: T): TLBounds;
     static getSelectedBounds(data: TDSnapshot): TLBounds;
-    static getParentId(data: TDSnapshot, id: string, pageId: string): any;
+    static getParentId(data: TDSnapshot, id: string, pageId: string): string;
     static getDocumentBranch(data: TDSnapshot, id: string, pageId: string): string[];
     static getSelectedBranchSnapshot<K>(data: TDSnapshot, pageId: string, fn: (shape: TDShape) => K): ({
         id: string;
@@ -57,7 +57,7 @@ export declare class TLDR {
     static updateParents(data: TDSnapshot, pageId: string, changedShapeIds: string[]): void;
     static getBinding(data: TDSnapshot, id: string, pageId: string): TDBinding;
     static getBindings(data: TDSnapshot, pageId: string): TDBinding[];
-    static getBindableShapeIds(data: TDSnapshot): any[];
+    static getBindableShapeIds(data: TDSnapshot): string[];
     static getBindingsWithShapeIds(data: TDSnapshot, ids: string[], pageId: string): TDBinding[];
     static getRelatedBindings(data: TDSnapshot, ids: string[], pageId: string): TDBinding[];
     static copyStringToClipboard: (string: string) => void;

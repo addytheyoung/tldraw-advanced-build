@@ -1,5 +1,5 @@
 import { TLShapeUtil } from '@tldraw/core';
-import type { TLPointerInfo } from '@tldraw/core';
+import type { TLPointerInfo, TLBounds } from '@tldraw/core';
 import type { TDMeta, TDShape, TransformInfo } from '../../types';
 export declare abstract class TDShapeUtil<T extends TDShape, E extends Element = any> extends TLShapeUtil<T, E, TDMeta> {
     abstract type: T['type'];
@@ -15,10 +15,10 @@ export declare abstract class TDShapeUtil<T extends TDShape, E extends Element =
     create: (props: {
         id: string;
     } & Partial<T>) => T;
-    getCenter: (shape: T) => any;
-    getExpandedBounds: (shape: T) => any;
+    getCenter: (shape: T) => number[];
+    getExpandedBounds: (shape: T) => TLBounds;
     getBindingPoint: <K extends TDShape>(shape: T, fromShape: K, point: number[], origin: number[], direction: number[], bindAnywhere: boolean) => {
-        point: any;
+        point: number[];
         distance: number;
     } | undefined;
     mutate: (shape: T, props: Partial<T>) => Partial<T>;

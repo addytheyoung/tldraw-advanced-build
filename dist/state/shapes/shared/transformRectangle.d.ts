@@ -8,12 +8,12 @@ import type { TLBounds, TLShape, TLTransformInfo } from '@tldraw/core';
 export declare function transformRectangle<T extends TLShape & {
     size: number[];
 }>(shape: T, bounds: TLBounds, { initialShape, transformOrigin, scaleX, scaleY }: TLTransformInfo<T>): {
-    size: any;
-    point: any;
-    rotation: any;
+    size: number[];
+    point: number[];
+    rotation: number | undefined;
 } | {
-    point: any;
-    size: any;
+    point: number[];
+    size: number[];
     rotation?: undefined;
 };
 //# sourceMappingURL=transformRectangle.d.ts.map

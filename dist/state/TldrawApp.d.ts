@@ -1,4 +1,4 @@
-import { TLBoundsEventHandler, TLBoundsHandleEventHandler, TLKeyboardEventHandler, TLShapeCloneHandler, TLCanvasEventHandler, TLPageState, TLPinchEventHandler, TLPointerEventHandler, TLWheelEventHandler, TLDropEventHandler } from '@tldraw/core';
+import { TLBoundsEventHandler, TLBoundsHandleEventHandler, TLKeyboardEventHandler, TLShapeCloneHandler, TLCanvasEventHandler, TLPageState, TLPinchEventHandler, TLPointerEventHandler, TLWheelEventHandler, TLBounds, TLDropEventHandler } from '@tldraw/core';
 import { TDDocument, AlignType, StretchType, DistributeType, ShapeStyles, TDShape, TDShapeType, TDSnapshot, TDPage, TDBinding, TldrawCommand, TDUser, SessionType, TDToolType, TDAsset, TDExportTypes, TDAssets, TDExport } from '../types';
 import { FileSystemHandle } from './data';
 import { TLDR } from './TLDR';
@@ -124,8 +124,8 @@ export declare class TldrawApp extends StateManager<TDSnapshot> {
     isForcePanning: boolean;
     editingStartTime: number;
     fileSystemHandle: FileSystemHandle | null;
-    viewport: any;
-    rendererBounds: any;
+    viewport: TLBounds;
+    rendererBounds: TLBounds;
     selectHistory: {
         stack: string[][];
         pointer: number;
@@ -335,7 +335,7 @@ export declare class TldrawApp extends StateManager<TDSnapshot> {
      * Get a page.
      * @param pageId (optional) The page's id.
      */
-    getPage: (pageId?: string) => TLPage<TDShape, import("../types").ArrowBinding>;
+    getPage: (pageId?: string) => TDPage;
     /**
      * Get the shapes (as an array) from a given page.
      * @param pageId (optional) The page's id.
@@ -506,7 +506,7 @@ export declare class TldrawApp extends StateManager<TDSnapshot> {
      * @param next The new zoom level.
      * @param center The point to zoom towards (defaults to screen center).
      */
-    zoomTo: (next: number, center?: any) => this;
+    zoomTo: (next: number, center?: number[]) => this;
     /**
      * Zoom out by 25%
      */
@@ -536,7 +536,7 @@ export declare class TldrawApp extends StateManager<TDSnapshot> {
      * @param delta The zoom delta.
      * @param center The point to zoom toward.
      */
-    zoomBy: any;
+    zoomBy: (delta: number, center?: number[] | undefined) => this;
     /**
      * Clear the selection history (undo/redo stack for selection).
      */
@@ -752,7 +752,7 @@ export declare class TldrawApp extends StateManager<TDSnapshot> {
      * @param ids The ids to group (defaults to selection).
      * @param groupId The new group's id.
      */
-    group: (ids?: string[], groupId?: any, pageId?: string) => this;
+    group: (ids?: string[], groupId?: string, pageId?: string) => this;
     /**
      * Ungroup the selected groups.
      * @todo
@@ -846,7 +846,7 @@ export declare class TldrawApp extends StateManager<TDSnapshot> {
     get isLocal(): boolean;
     get status(): string;
     get currentUser(): TDUser | undefined;
-    get centerPoint(): any;
+    get centerPoint(): number[];
     get currentGrid(): number;
     getShapeUtil: typeof TLDR.getShapeUtil;
     static version: number;

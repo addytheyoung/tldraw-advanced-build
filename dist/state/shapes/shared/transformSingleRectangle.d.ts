@@ -7,7 +7,7 @@ import type { TLBounds, TLShape } from '@tldraw/core';
 export declare function transformSingleRectangle<T extends TLShape & {
     size: number[];
 }>(shape: T, bounds: TLBounds): {
-    size: any;
-    point: any;
+    size: number[];
+    point: number[];
 };
 //# sourceMappingURL=transformSingleRectangle.d.ts.map

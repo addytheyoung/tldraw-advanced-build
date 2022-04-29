@@ -1,4 +1,6 @@
-import { TextShape, TDShapeType, TransformInfo, AlignStyle } from '../../../types';
+import * as React from 'react';
+import { TLBounds } from '@tldraw/core';
+import { TextShape, TDMeta, TDShapeType, TransformInfo, AlignStyle } from '../../../types';
 import { TDShapeUtil } from '../TDShapeUtil';
 declare type T = TextShape;
 declare type E = HTMLDivElement;
@@ -11,9 +13,15 @@ export declare class TextUtil extends TDShapeUtil<T, E> {
     bindingDistance: number;
     getShape: (props: Partial<T>) => T;
     texts: Map<string, string>;
-    Component: any;
-    Indicator: any;
-    getBounds: (shape: T) => any;
+    Component: React.ForwardRefExoticComponent<Pick<import("@tldraw/core").TLComponentProps<TextShape, HTMLDivElement, TDMeta>, "bounds" | "isGhost" | "meta" | "isEditing" | "isSelected" | "shape" | "isBinding" | "events" | "onShapeBlur" | "onShapeChange" | "asset" | "isHovered" | "isChildOfSelected"> & React.RefAttributes<HTMLDivElement>>;
+    Indicator: (props: {
+        shape: TextShape;
+        meta: any;
+        isHovered: boolean;
+        isSelected: boolean;
+        bounds: TLBounds;
+    }) => JSX.Element;
+    getBounds: (shape: T) => TLBounds;
     shouldRender: (prev: T, next: T) => boolean;
     transform: (shape: T, bounds: TLBounds, { initialShape, scaleX, scaleY }: TransformInfo<T>) => Partial<T>;
     transformSingle: (shape: T, bounds: TLBounds, { initialShape, scaleX, scaleY }: TransformInfo<T>) => Partial<T> | void;
@@ -30,7 +38,7 @@ export declare class TextUtil extends TDShapeUtil<T, E> {
             customSize?: number | undefined;
             customOpacity?: number | undefined;
         };
-        point: any;
+        point: number[];
     };
     getSvgElement: (shape: T) => SVGElement | void;
 }

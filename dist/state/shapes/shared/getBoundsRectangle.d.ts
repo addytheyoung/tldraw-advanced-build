@@ -6,5 +6,5 @@ import { TLBounds, TLShape } from '@tldraw/core';
  */
 export declare function getBoundsRectangle<T extends TLShape & {
     size: number[];
-}>(shape: T, boundsCache: WeakMap<T, TLBounds>): any;
+}>(shape: T, boundsCache: WeakMap<T, TLBounds>): TLBounds;
 //# sourceMappingURL=getBoundsRectangle.d.ts.map

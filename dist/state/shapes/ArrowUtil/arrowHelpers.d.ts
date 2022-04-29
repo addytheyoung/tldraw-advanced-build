@@ -1,16 +1,16 @@
 import type { ArrowShape, Decoration, ShapeStyles } from '../../../types';
 export declare function getArrowArcPath(start: number[], end: number[], circle: number[], bend: number): string;
-export declare function getBendPoint(handles: ArrowShape['handles'], bend: number): any;
-export declare function renderFreehandArrowShaft(id: string, style: ShapeStyles, start: number[], end: number[], decorationStart: Decoration | undefined, decorationEnd: Decoration | undefined): any;
-export declare function renderCurvedFreehandArrowShaft(id: string, style: ShapeStyles, start: number[], end: number[], decorationStart: Decoration | undefined, decorationEnd: Decoration | undefined, center: number[], radius: number, length: number, easing: (t: number) => number): any;
-export declare function getCtp(start: number[], bend: number[], end: number[]): any;
+export declare function getBendPoint(handles: ArrowShape['handles'], bend: number): number[];
+export declare function renderFreehandArrowShaft(id: string, style: ShapeStyles, start: number[], end: number[], decorationStart: Decoration | undefined, decorationEnd: Decoration | undefined): string;
+export declare function renderCurvedFreehandArrowShaft(id: string, style: ShapeStyles, start: number[], end: number[], decorationStart: Decoration | undefined, decorationEnd: Decoration | undefined, center: number[], radius: number, length: number, easing: (t: number) => number): string;
+export declare function getCtp(start: number[], bend: number[], end: number[]): number[];
 export declare function getCurvedArrowHeadPoints(A: number[], r1: number, C: number[], r2: number, sweep: boolean): {
-    left: any;
-    right: any;
+    left: number[];
+    right: number[];
 };
 export declare function getStraightArrowHeadPoints(A: number[], B: number[], r: number): {
-    left: any;
-    right: any;
+    left: number[];
+    right: number[];
 };
 export declare function getCurvedArrowHeadPath(A: number[], r1: number, C: number[], r2: number, sweep: boolean): string;
 export declare function getStraightArrowHeadPath(A: number[], B: number[], r: number): string;

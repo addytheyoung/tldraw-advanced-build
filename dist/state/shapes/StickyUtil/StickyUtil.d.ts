@@ -1,4 +1,6 @@
-import { StickyShape, TDShapeType, TransformInfo } from '../../../types';
+import * as React from 'react';
+import { TLBounds } from '@tldraw/core';
+import { StickyShape, TDMeta, TDShapeType, TransformInfo } from '../../../types';
 import { TDShapeUtil } from '../TDShapeUtil';
 declare type T = StickyShape;
 declare type E = HTMLDivElement;
@@ -10,9 +12,15 @@ export declare class StickyUtil extends TDShapeUtil<T, E> {
     hideResizeHandles: boolean;
     showCloneHandles: boolean;
     getShape: (props: Partial<T>) => T;
-    Component: any;
-    Indicator: any;
-    getBounds: (shape: T) => any;
+    Component: React.ForwardRefExoticComponent<Pick<import("@tldraw/core").TLComponentProps<StickyShape, HTMLDivElement, TDMeta>, "bounds" | "isGhost" | "meta" | "isEditing" | "isSelected" | "shape" | "isBinding" | "events" | "onShapeBlur" | "onShapeChange" | "asset" | "isHovered" | "isChildOfSelected"> & React.RefAttributes<HTMLDivElement>>;
+    Indicator: (props: {
+        shape: StickyShape;
+        meta: any;
+        isHovered: boolean;
+        isSelected: boolean;
+        bounds: TLBounds;
+    }) => JSX.Element;
+    getBounds: (shape: T) => TLBounds;
     shouldRender: (prev: T, next: T) => boolean;
     transform: (shape: T, bounds: TLBounds, { scaleX, scaleY, transformOrigin }: TransformInfo<T>) => Partial<T>;
     transformSingle: (shape: T) => Partial<T>;

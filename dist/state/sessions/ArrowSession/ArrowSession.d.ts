@@ -5,8 +5,8 @@ export declare class ArrowSession extends BaseSession {
     type: SessionType;
     performanceMode: undefined;
     status: TDStatus;
-    newStartBindingId: any;
-    draggedBindingId: any;
+    newStartBindingId: string;
+    draggedBindingId: string;
     didBind: boolean;
     initialShape: ArrowShape;
     handleId: 'start' | 'end';

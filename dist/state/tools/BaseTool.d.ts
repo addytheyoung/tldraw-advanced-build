@@ -16,7 +16,7 @@ export declare abstract class BaseTool<T extends string = any> extends TDEventHa
     onEnter: () => void;
     onExit: () => void;
     onCancel: () => void;
-    getNextChildIndex: () => any;
+    getNextChildIndex: () => number;
     onPinchStart: TLPinchEventHandler;
     onPinchEnd: TLPinchEventHandler;
     onPinch: TLPinchEventHandler;
