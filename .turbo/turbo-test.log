@@ -1,18 +1,18 @@
-[36m@tldraw/tldraw:test: [0mcache hit, replaying output [2m166d8a004fb38a5f[0m
+[36m@tldraw/tldraw:test: [0mcache hit, replaying output [2m307e3a9e9135b516[0m
 [36m@tldraw/tldraw:test: [0m$ jest
-[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/RotateSession/RotateSession.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/stretchShapes/stretchShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/reorderShapes/reorderShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/TransformSingleSession/TransformSingleSession.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/groupShapes/groupShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/duplicateShapes/duplicateShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/translateShapes/translateShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/moveShapesToPage/moveShapesToPage.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/commands/ungroupShapes/ungroupShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/TransformSingleSession/TransformSingleSession.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/stretchShapes/stretchShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/translateShapes/translateShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/RotateSession/RotateSession.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/reorderShapes/reorderShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/groupShapes/groupShapes.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/sessions/TransformSession/TransformSession.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/moveShapesToPage/moveShapesToPage.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/commands/deleteShapes/deleteShapes.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/sessions/TranslateSession/TranslateSession.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/tools/SelectTool/SelectTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/duplicateShapes/duplicateShapes.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/sessions/ArrowSession/ArrowSession.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/TldrawApp.spec.ts
 [36m@tldraw/tldraw:test: [0m  ● Console
@@ -65,57 +65,57 @@
 [36m@tldraw/tldraw:test: [0m      at TldrawTestApp.replacePageContent (src/state/TldrawApp.ts:696:27)
 [36m@tldraw/tldraw:test: [0m      at Object.<anonymous> (src/state/TldrawApp.spec.ts:680:11)
 [36m@tldraw/tldraw:test: [0m
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/distributeShapes/distributeShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/styleShapes/styleShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/toggleShapesProp/toggleShapesProp.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/alignShapes/alignShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/DrawSession/DrawSession.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/BrushSession/BrushSession.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/tools/DrawTool/DrawTool.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/toggleShapesDecoration/toggleShapesDecoration.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/resetBounds/resetBounds.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/flipShapes/flipShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/rotateShapes/rotateShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/shapes/ArrowUtil/ArrowUtil.spec.tsx
-[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/HandleSession/HandleSession.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/GridSession/GridSession.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/EraseSession/EraseSession.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/data/filesystem.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/test/badDocument.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/TranslateLabelSession/TranslateLabelSession.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/updateShapes/updateShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/createPage/createPage.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/changePage/changePage.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/createShapes/createShapes.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/deletePage/deletePage.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/commands/duplicatePage/duplicatePage.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/commands/renamePage/renamePage.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/tools/EraseTool/EraseTool.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/shapes/StickyUtil/StickyUtil.spec.tsx
-[36m@tldraw/tldraw:test: [0mPASS src/components/TopPanel/StyleMenu/StyleMenu.test.tsx
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/deletePage/deletePage.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/shapes/ArrowUtil/ArrowUtil.spec.tsx
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/createPage/createPage.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/createShapes/createShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/rotateShapes/rotateShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/tools/LineTool/LineTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/GridSession/GridSession.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/changePage/changePage.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/BrushSession/BrushSession.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/components/ContextMenu/ContextMenu.test.tsx
-[36m@tldraw/tldraw:test: [0mPASS src/state/tools/RectangleTool/RectangleTool.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/shapes/RectangleUtil/RectangleUtil.spec.tsx
-[36m@tldraw/tldraw:test: [0mPASS src/state/tools/TriangleTool/TriangleTool.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/tools/EllipseTool/EllipseTool.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/tools/StickyTool/StickyTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/HandleSession/HandleSession.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/updateShapes/updateShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/resetBounds/resetBounds.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/alignShapes/alignShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/tools/TextTool/TextTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/duplicatePage/duplicatePage.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/EraseSession/EraseSession.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/DrawSession/DrawSession.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/flipShapes/flipShapes.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/data/migrate.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/tools/ArrowTool/ArrowTool.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/shapes/TriangleUtil/TriangleUtil.spec.tsx
-[36m@tldraw/tldraw:test: [0mPASS src/state/tools/TextTool/TextTool.spec.ts
-[36m@tldraw/tldraw:test: [0mPASS src/state/tools/LineTool/LineTool.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/components/ToolsPanel/ToolsPanel.test.tsx
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/styleShapes/styleShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/tools/TriangleTool/TriangleTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/shapes/StickyUtil/StickyUtil.spec.tsx
+[36m@tldraw/tldraw:test: [0mPASS src/state/tools/EraseTool/EraseTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/shapes/TriangleUtil/TriangleUtil.spec.tsx
+[36m@tldraw/tldraw:test: [0mPASS src/state/tools/StickyTool/StickyTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/test/badDocument.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/tools/RectangleTool/RectangleTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/tools/EllipseTool/EllipseTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/tools/DrawTool/DrawTool.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/toggleShapesDecoration/toggleShapesDecoration.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/distributeShapes/distributeShapes.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/shapes/RectangleUtil/RectangleUtil.spec.tsx
 [36m@tldraw/tldraw:test: [0mPASS src/state/shapes/EllipseUtil/EllipseUtil.spec.tsx
+[36m@tldraw/tldraw:test: [0mPASS src/state/commands/toggleShapesProp/toggleShapesProp.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/Tldraw.spec.tsx
 [36m@tldraw/tldraw:test: [0mPASS src/state/shapes/VideoUtil/VideoUtil.spec.tsx
+[36m@tldraw/tldraw:test: [0mPASS src/state/sessions/TranslateLabelSession/TranslateLabelSession.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/state/data/filesystem.spec.ts
+[36m@tldraw/tldraw:test: [0mPASS src/components/TopPanel/StyleMenu/StyleMenu.test.tsx
 [36m@tldraw/tldraw:test: [0mPASS src/state/commands/setShapesProps/setShapesProps.spec.ts
 [36m@tldraw/tldraw:test: [0mPASS src/state/shapes/ImageUtil/ImageUtil.spec.tsx
 [36m@tldraw/tldraw:test: [0mPASS src/state/shapes/GroupUtil/GroupUtil.spec.tsx
 [36m@tldraw/tldraw:test: [0mPASS src/state/shapes/TextUtil/TextUtil.spec.tsx
 [36m@tldraw/tldraw:test: [0mPASS src/state/shapes/DrawUtil/DrawUtil.spec.tsx
-[36m@tldraw/tldraw:test: [0mPASS src/Tldraw.spec.tsx
 [36m@tldraw/tldraw:test: [0m
 [36m@tldraw/tldraw:test: [0mTest Suites: 63 passed, 63 total
 [36m@tldraw/tldraw:test: [0mTests:       77 todo, 275 passed, 352 total
 [36m@tldraw/tldraw:test: [0mSnapshots:   17 passed, 17 total
-[36m@tldraw/tldraw:test: [0mTime:        9.92 s
+[36m@tldraw/tldraw:test: [0mTime:        5.893 s, estimated 8 s
 [36m@tldraw/tldraw:test: [0mRan all test suites.

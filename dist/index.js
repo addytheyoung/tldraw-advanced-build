@@ -4908,7 +4908,9 @@ var shapeUtils = {
   ["video" /* Video */]: Video
 };
 var getShapeUtil = (shape) => {
-  if (typeof shape === "string")
+  if (!shape)
+    return "draw" /* Draw */;
+  else if (typeof shape === "string")
     return shapeUtils[shape];
   return shapeUtils[shape.type];
 };

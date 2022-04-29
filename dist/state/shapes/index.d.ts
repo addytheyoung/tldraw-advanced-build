@@ -8,7 +8,7 @@ import { StickyUtil } from './StickyUtil';
 import { TextUtil } from './TextUtil';
 import { DrawUtil } from './DrawUtil';
 import { ImageUtil } from './ImageUtil';
-import { TDShape } from '../../types';
+import { TDShape, TDShapeType } from '../../types';
 import { VideoUtil } from './VideoUtil';
 export declare const Rectangle: RectangleUtil;
 export declare const Triangle: TriangleUtil;
@@ -32,5 +32,5 @@ export declare const shapeUtils: {
     image: ImageUtil;
     video: VideoUtil;
 };
-export declare const getShapeUtil: <T extends TDShape>(shape: T | T["type"]) => TDShapeUtil<T, any>;
+export declare const getShapeUtil: <T extends TDShape>(shape: T | T["type"]) => TDShapeType.Draw | TDShapeUtil<T, any>;
 //# sourceMappingURL=index.d.ts.map
